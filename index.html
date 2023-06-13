@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate Circle navbar</title>
+    <link rel="stylesheet" href="fontawesome/fontawesome-free-5.15.4-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <div class="toggle"><h1>+</h1></div>
+        <li style="--i:0;">
+            <a href="">H</i></a>
+        </li>
+        <li style="--i:1;">
+            <a href="">U</a>
+        </li>
+        <li style="--i:2;">
+            <a href="">S</a>
+        </li>
+        <li style="--i:3;">
+            <a href="">E</a>
+        </li>
+        <li style="--i:4;">
+            <a href="">P</a>
+        </li>
+        <li style="--i:5;">
+            <a href="">V</a>
+        </li>
+        <li style="--i:6;">
+            <a href="">G</a>
+        </li>
+        <li style="--i:7;">
+            <a href="">C</a>
+        </li>
+    </div>
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let menu = document.querySelector('.menu');
+        toggle.onclick = function(){
+            menu.classList.toggle('active')
+        }
+    </script>
+    <script src="fontawesome/fontawesome-free-5.15.4-web/js/fontawesome.min.js"></script>
+</body>
+</html>
